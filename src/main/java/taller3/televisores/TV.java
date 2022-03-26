@@ -75,6 +75,7 @@ public class TV{
   public void volumenUp(){
       if (this.getEstado() && volumen!=7){
       volumen+=1;
+    }
   }
   public void volumenDown(){
     if(this.getEstado() && volumen!=0){
